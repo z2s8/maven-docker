@@ -10,4 +10,4 @@ RUN chown -R builder:builder /home/builder
 USER builder
 RUN mkdir -p .m2
 
-CMD ["bash"]
+CMD ["mvn"]
